@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SLURM on Daozhang</title>
+    <link>https://shaobinqiu.github.io/categories/slurm/</link>
+    <description>Recent content in SLURM on Daozhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 11 Sep 2018 15:07:34 +0800</lastBuildDate>
+    
+	<atom:link href="https://shaobinqiu.github.io/categories/slurm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SLURM</title>
+      <link>https://shaobinqiu.github.io/post/slurm/</link>
+      <pubDate>Tue, 11 Sep 2018 15:07:34 +0800</pubDate>
+      
+      <guid>https://shaobinqiu.github.io/post/slurm/</guid>
+      <description>SLURM 1. 任务提交 sbatch job.sh 2. 任务查询 查看用户任务 squeue 任务状态 PD 排队等待 R 运行 S 挂起 F 失败结束 CA 取消 TO 超时 NF 节点故障 3. 任务删除 scancel jobnumber #任务号可以通过sque</description>
+    </item>
+    
+  </channel>
+</rss>

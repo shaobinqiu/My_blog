@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vasp on Daozhang</title>
+    <link>https://shaobinqiu.github.io/categories/vasp/</link>
+    <description>Recent content in Vasp on Daozhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 08 Aug 2018 17:06:55 +0800</lastBuildDate>
+    
+	<atom:link href="https://shaobinqiu.github.io/categories/vasp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Vasp_scripts</title>
+      <link>https://shaobinqiu.github.io/post/vasp_scripts/</link>
+      <pubDate>Wed, 08 Aug 2018 17:06:55 +0800</pubDate>
+      
+      <guid>https://shaobinqiu.github.io/post/vasp_scripts/</guid>
+      <description>一些小脚本 1. OSZICAR最后一行信息 $i $ionstep $F $E $mag(如果有) for i in {1..80} do E=`tail -1 OSZICAR-$i` inf=`echo $E|cut -d &amp;quot; &amp;quot; -f 1,3,5,10` echo $i $inf &amp;gt;&amp;gt;energy done</description>
+    </item>
+    
+    <item>
+      <title>团簇振动频率谱的vasp计算</title>
+      <link>https://shaobinqiu.github.io/post/vasp-clusters-vibrationsp/</link>
+      <pubDate>Tue, 31 Jul 2018 01:37:56 +0800</pubDate>
+      
+      <guid>https://shaobinqiu.github.io/post/vasp-clusters-vibrationsp/</guid>
+      <description>对于含有N个原子的团簇，平动有三个自由度，一般情况下，转动也有三个自由度，剩余3N-6自由度属于振动。 （可参考朗道《力学》$24） vasp计</description>
+    </item>
+    
+  </channel>
+</rss>

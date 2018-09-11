@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Filezilla on Daozhang</title>
+    <link>https://shaobinqiu.github.io/tags/filezilla/</link>
+    <description>Recent content in Filezilla on Daozhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 11 Sep 2018 20:03:09 +0800</lastBuildDate>
+    
+	<atom:link href="https://shaobinqiu.github.io/tags/filezilla/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>filezilla的使用</title>
+      <link>https://shaobinqiu.github.io/post/filezilla/</link>
+      <pubDate>Tue, 11 Sep 2018 20:03:09 +0800</pubDate>
+      
+      <guid>https://shaobinqiu.github.io/post/filezilla/</guid>
+      <description>连接服务器可以使用cmder，这里介绍本地和服务器间进行文件传输的一款软件FileZilla。 下载地址：https://filezilla-</description>
+    </item>
+    
+  </channel>
+</rss>

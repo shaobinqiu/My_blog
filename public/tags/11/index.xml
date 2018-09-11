@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>11 on Daozhang</title>
+    <link>https://shaobinqiu.github.io/tags/11/</link>
+    <description>Recent content in 11 on Daozhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 08 Aug 2018 15:07:34 +0800</lastBuildDate>
+    
+	<atom:link href="https://shaobinqiu.github.io/tags/11/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Issues_cluster11</title>
+      <link>https://shaobinqiu.github.io/post/issues_cluster11/</link>
+      <pubDate>Wed, 08 Aug 2018 15:07:34 +0800</pubDate>
+      
+      <guid>https://shaobinqiu.github.io/post/issues_cluster11/</guid>
+      <description>SGE 1. 任务提交 qsub jobname.sh 提交到指定节点 qsub -q nodename jobname.sh 2. 任务查询 查看用户任务 qstat 查看所有任务 qstat -u “*” 任务状态 qw 等待 Eqw 任务出差 r 运行中 dr 节点挂了，删除任务出现</description>
+    </item>
+    
+  </channel>
+</rss>

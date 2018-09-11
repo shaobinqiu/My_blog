@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Daozhang</title>
+    <link>https://shaobinqiu.github.io/categories/</link>
+    <description>Recent content in Categories on Daozhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 09 Sep 2018 09:54:13 +0800</lastBuildDate>
+    
+	<atom:link href="https://shaobinqiu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog</title>
+      <link>https://shaobinqiu.github.io/categories/blog/</link>
+      <pubDate>Sun, 09 Sep 2018 09:54:13 +0800</pubDate>
+      
+      <guid>https://shaobinqiu.github.io/categories/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conda</title>
+      <link>https://shaobinqiu.github.io/categories/conda/</link>
+      <pubDate>Tue, 04 Sep 2018 09:54:13 +0800</pubDate>
+      
+      <guid>https://shaobinqiu.github.io/categories/conda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://shaobinqiu.github.io/categories/linux/</link>
+      <pubDate>Fri, 10 Aug 2018 09:54:13 +0800</pubDate>
+      
+      <guid>https://shaobinqiu.github.io/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SLURM</title>
+      <link>https://shaobinqiu.github.io/categories/slurm/</link>
+      <pubDate>Tue, 11 Sep 2018 15:07:34 +0800</pubDate>
+      
+      <guid>https://shaobinqiu.github.io/categories/slurm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vasp</title>
+      <link>https://shaobinqiu.github.io/categories/vasp/</link>
+      <pubDate>Wed, 08 Aug 2018 17:06:55 +0800</pubDate>
+      
+      <guid>https://shaobinqiu.github.io/categories/vasp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vim</title>
+      <link>https://shaobinqiu.github.io/categories/vim/</link>
+      <pubDate>Thu, 06 Sep 2018 09:54:13 +0800</pubDate>
+      
+      <guid>https://shaobinqiu.github.io/categories/vim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>“filezilla”</title>
+      <link>https://shaobinqiu.github.io/categories/filezilla/</link>
+      <pubDate>Tue, 11 Sep 2018 20:03:09 +0800</pubDate>
+      
+      <guid>https://shaobinqiu.github.io/categories/filezilla/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>“vasp”，“15”</title>
+      <link>https://shaobinqiu.github.io/categories/vasp15/</link>
+      <pubDate>Tue, 11 Sep 2018 18:03:09 +0800</pubDate>
+      
+      <guid>https://shaobinqiu.github.io/categories/vasp15/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

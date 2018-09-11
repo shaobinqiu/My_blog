@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conda on Daozhang</title>
+    <link>https://shaobinqiu.github.io/categories/conda/</link>
+    <description>Recent content in Conda on Daozhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 04 Sep 2018 09:54:13 +0800</lastBuildDate>
+    
+	<atom:link href="https://shaobinqiu.github.io/categories/conda/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>conda</title>
+      <link>https://shaobinqiu.github.io/post/conda/</link>
+      <pubDate>Tue, 04 Sep 2018 09:54:13 +0800</pubDate>
+      
+      <guid>https://shaobinqiu.github.io/post/conda/</guid>
+      <description>conda 1.创建环境 conda create -n name [dependent package list] 例如 conda create -n pyyabc python=3.6 2.激活失效环境 source activate name source deactivate 3.列出环境 conda info --envs 带*为当前环境 4.删除环境 conda remove -n name --all</description>
+    </item>
+    
+  </channel>
+</rss>

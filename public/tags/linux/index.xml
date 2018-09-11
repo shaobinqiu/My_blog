@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Daozhang</title>
+    <link>https://shaobinqiu.github.io/tags/linux/</link>
+    <description>Recent content in Linux on Daozhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 11 Sep 2018 15:07:34 +0800</lastBuildDate>
+    
+	<atom:link href="https://shaobinqiu.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SLURM</title>
+      <link>https://shaobinqiu.github.io/post/slurm/</link>
+      <pubDate>Tue, 11 Sep 2018 15:07:34 +0800</pubDate>
+      
+      <guid>https://shaobinqiu.github.io/post/slurm/</guid>
+      <description>SLURM 1. 任务提交 sbatch job.sh 2. 任务查询 查看用户任务 squeue 任务状态 PD 排队等待 R 运行 S 挂起 F 失败结束 CA 取消 TO 超时 NF 节点故障 3. 任务删除 scancel jobnumber #任务号可以通过sque</description>
+    </item>
+    
+    <item>
+      <title>vim</title>
+      <link>https://shaobinqiu.github.io/post/vim/</link>
+      <pubDate>Thu, 06 Sep 2018 09:54:13 +0800</pubDate>
+      
+      <guid>https://shaobinqiu.github.io/post/vim/</guid>
+      <description>vim 保存编辑 进入insert mode 按i进入插入模式后, 是从光标当前位置开始输入文件； 按a进入插入模式后，是从目前光标所在位置的下一个位置开始输入文</description>
+    </item>
+    
+    <item>
+      <title>conda</title>
+      <link>https://shaobinqiu.github.io/post/conda/</link>
+      <pubDate>Tue, 04 Sep 2018 09:54:13 +0800</pubDate>
+      
+      <guid>https://shaobinqiu.github.io/post/conda/</guid>
+      <description>conda 1.创建环境 conda create -n name [dependent package list] 例如 conda create -n pyyabc python=3.6 2.激活失效环境 source activate name source deactivate 3.列出环境 conda info --envs 带*为当前环境 4.删除环境 conda remove -n name --all</description>
+    </item>
+    
+    <item>
+      <title>Cluster_useradd &amp; userdel</title>
+      <link>https://shaobinqiu.github.io/post/cluster_useradd/</link>
+      <pubDate>Fri, 10 Aug 2018 09:54:13 +0800</pubDate>
+      
+      <guid>https://shaobinqiu.github.io/post/cluster_useradd/</guid>
+      <description>加用户 进入root useradd -m username #-m在home目录下创建用户文件夹 passwd username wwsh file resync passwd shadow group #与计算节点同步用户数据 对于11的修改后数据同步： rocks sync users userdel username #删</description>
+    </item>
+    
+    <item>
+      <title>Issues_cluster11</title>
+      <link>https://shaobinqiu.github.io/post/issues_cluster11/</link>
+      <pubDate>Wed, 08 Aug 2018 15:07:34 +0800</pubDate>
+      
+      <guid>https://shaobinqiu.github.io/post/issues_cluster11/</guid>
+      <description>SGE 1. 任务提交 qsub jobname.sh 提交到指定节点 qsub -q nodename jobname.sh 2. 任务查询 查看用户任务 qstat 查看所有任务 qstat -u “*” 任务状态 qw 等待 Eqw 任务出差 r 运行中 dr 节点挂了，删除任务出现</description>
+    </item>
+    
+    <item>
+      <title>Linux Simplecommands</title>
+      <link>https://shaobinqiu.github.io/post/linux-simplecommands/</link>
+      <pubDate>Fri, 03 Aug 2018 09:54:13 +0800</pubDate>
+      
+      <guid>https://shaobinqiu.github.io/post/linux-simplecommands/</guid>
+      <description>linux简单命令 cp 多个文件文件： cp /home/usr/dir/{file1,file2,file3,file4} /home/usr/destination/ cp 拥有共同前缀文件: cp /home/usr/dir/file{1..4} ./ 查看可导入模块： module avail 导入模块： module load modulename 查看已导入模块： module list</description>
+    </item>
+    
+  </channel>
+</rss>
