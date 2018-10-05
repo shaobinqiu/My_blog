@@ -51,6 +51,9 @@ POTIM=0.02
 ```
 最主要差别在于后三个参数设置，详情参照vasp manual。
 
+
+注意，NSW的值必须大于６Ｎ＋１(+-dx dy dz)！！！
+
 # 其他：
 
 KPOINTS统一使用gamma点

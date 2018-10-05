@@ -15,17 +15,16 @@ author: qiusb
 windows用户推荐使用cmder软件链接服务器。下载链接：http://cmder.net/
 打开软件，在命令行操作
 ```
-ssh username@202.38.220.15
+ssh username@232.38.220.15
 ```
-
-![hugo even showcase](https://raw.githubusercontent.com/shaobinqiu/shaobinqiu.github.io/master/images/cmder.jpg" cmder.jpg")
- 
 
 linux用户
 terminal
 ```
-ssh username@202.38.220.15
+ssh username@232.38.220.15
 ```
+！！！！！ip改为服务器ip，这里只是示范，不是实际ip。
+
 
 ## bash 修改
 对于新用户，使用前需要修改~/.bashrc文件
@@ -57,6 +56,9 @@ source ~/.bashrc
 这是为了让修改立刻生效。
 
 ## 开始使用vasp
+15集群赝势文件所在目录：/opt/ohpc/pub/apps/vasp/pps
+
+
 将自己的计算文件（POSCAR KPOINTS POTCAR INCAR ...）放在一个文件夹下,进入文件夹
 ```
 vim job.sh #创建提交任务脚本
