@@ -1,7 +1,7 @@
 ---
 title: "团簇振动频率谱的vasp计算"
 date: 2018-07-31T01:37:56+08:00
-lastmod: 2018-07-31T01:37:56+08:00
+lastmod: 2018-10-08T01:37:56+08:00
 draft: false
 tags: ["vasp","团簇",“振动谱”,“频率"]
 categories: ["vasp"]
@@ -52,7 +52,11 @@ POTIM=0.02
 最主要差别在于后三个参数设置，详情参照vasp manual。
 
 
-注意，NSW的值必须大于６Ｎ＋１(+-dx dy dz)！！！
+注意，NSW的值必须大于3Ｎ*NFREE＋１(+-dx dy dz)！！！
+
+NPAR必须是默认等于核数（不设置）；ENCUT要测试；LREAL可根据情况设为Auto。
+
+！！！真空层大小要慎重，计算速度差距很大。
 
 # 其他：
 
