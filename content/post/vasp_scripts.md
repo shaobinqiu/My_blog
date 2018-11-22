@@ -1,7 +1,7 @@
 ---
 title: "Vasp_scripts"
 date: 2018-08-08T17:06:55+08:00
-lastmod: 2018-11-12T17:54:13+08:00
+lastmod: 2018-11-22T17:54:13+08:00
 draft: false
 tags: ["vasp", "script"]
 categories: ["vasp"]
@@ -86,6 +86,7 @@ inf=`echo $E|cut -d " " -f 1,3,5,10`
 echo $i $inf >>summary
 mv OSZICAR OSZICAR-$i
 mv CONTCAR CONTCAR-$i
+rm WAVECAR DOSCAR
 done
 ```
 !!修改POSCARdier行的a会将原子位置也改变（等比缩放），即便是笛卡尔坐标下。
