@@ -47,6 +47,7 @@ inf=`echo $E|cut -d " " -f 1,3,5,10`
 echo $i $inf >>summary
 mv OSZICAR OSZICAR-$i
 mv CONTCAR CONTCAR-$i
+rm WAVECAR DOSCAR
 done
 
 ```
