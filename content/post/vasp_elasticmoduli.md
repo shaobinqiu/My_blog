@@ -13,8 +13,8 @@ author: "qiusb"
 
 # 2.计算弹模
 
-
-```INCAR
+INCAR
+```
 ENCUT = 600
 EDIFF = 1e-6
 ISMEAR = 0
@@ -35,7 +35,9 @@ EDIFFG = -0.001
 
 计算得到的elastic moduli 是直角坐标下的，只要在同一直角坐标下，不同取lattice，结果相同。测试过diamond的pcell和supercell。
 
-```pcell
+
+pcell
+```
   SYMMETRIZED ELASTIC MODULI (kBar)
  Direction    XX          YY          ZZ          XY          YZ          ZX
  --------------------------------------------------------------------------------
@@ -47,7 +49,10 @@ EDIFFG = -0.001
  ZX           0.0000      0.0000      0.0000      0.0000      0.0000   5665.1406
  --------------------------------------------------------------------------------
 ```
-```supercell
+
+
+supercell
+```
  TOTAL ELASTIC MODULI (kBar)
  Direction    XX          YY          ZZ          XY          YZ          ZX
  --------------------------------------------------------------------------------
@@ -59,4 +64,4 @@ EDIFFG = -0.001
  ZX           0.0000     -0.0000      0.0000     -0.0000     -0.0000   5629.8633
  --------------------------------------------------------------------------------
 ```
-![img](https://wx1.sinaimg.cn/small/006SToa6ly1fm07summ2gj30qo0qomzu.jpg "img")
+![img](https://github.com/shaobinqiu/shaobinqiu.github.io/tree/master/images/cmder.jpg "img")
