@@ -1,6 +1,5 @@
 ---
 title: "Swap Caps and Ctrl_L"
-date: 2019-04-02
 lastmod: 2019-04-02
 draft: false
 tags: ["Caps"]
