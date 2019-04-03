@@ -1,5 +1,5 @@
 ---
-title: "conda"
+title: "eo"
 date: 2018-09-04T09:54:13+08:00
 lastmod: 2018-09-04T10:54:13+08:00
 draft: false
